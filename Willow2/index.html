@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Template | 02</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylex.css">
+    <style>
+      .mainbody{height:100vh;}
+    </style>
+  </head>
+  <body>
+    <div class="mainbody bor">
+    </div>
+    <script src="js1/script1.js"></script>
+    <script>
+      //var mainbody = document.querySelector(".mainbody");
+      //var inrgmblock = document.querySelectorAll(".inrgmblock");
+
+      // padding('tb','top','bottom')
+      // padding('lr','left','right')
+      function padding(d,dir1,dir2){
+        var a,p1,p2,p3,p4;
+        for(a=1;a<=50;a++){
+          p1 = ".p"+d;
+          p2 = "{padding-"+dir1+":";
+          p3 = "px;padding-"+dir2+":";
+          p4 = "px;}";
+
+          console.log(p1 + a + p2 + a + p3 + a + p4)
+        }
+      }
+      borderRadius()
+      function borderRadius(){
+        var a,b1,b2,b3;
+        for(a=1;a<=9;a++){
+          b1 = ".bg"
+          b2 = "{background:limegreen;opacity:."
+          b3 = ";}"
+
+          console.log(b1 + a + b2 + a + b3)
+        }
+      }
+      // for(var c=1;c<=50;c++){
+      //   var m7,m8,m9;
+      //   m7 = ".ml"
+      //   m8 = "{margin-left:"
+      //   m9 = "px;}"
+      //   console.log(m7+c+m8+c+m9)
+      // }
+
+    </script>
+  </body>
+</html>
